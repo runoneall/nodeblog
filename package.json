@@ -1,5 +1,5 @@
 {
-	"name": "cloudflare-workers-typescript-honojs-jsx-starter",
+	"name": "nodeblog",
 	"version": "1.0.0",
 	"scripts": {
 		"dev": "npx wrangler dev",
@@ -7,6 +7,7 @@
 		"deploy": "npx wrangler deploy"
 	},
 	"dependencies": {
+		"drizzle-orm": "^1.0.0-rc.5",
 		"hono": "^4.13.13"
 	},
 	"devDependencies": {

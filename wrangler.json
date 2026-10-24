@@ -1,6 +1,6 @@
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "cloudflare-workers-typescript-honojs-jsx-starter",
+	"name": "nodeblog",
 	"compatibility_date": "2026-10-24",
 	"compatibility_flags": ["nodejs_compat"],
 	"main": "src/index.ts",
@@ -9,5 +9,11 @@
 	},
 	"assets": {
 		"directory": "public"
-	}
+	},
+	"d1_databases": [
+		{
+			"binding": "db",
+			"database_name": "nodeblog-db"
+		}
+	]
 }
